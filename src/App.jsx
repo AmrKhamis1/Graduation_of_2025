@@ -58,7 +58,7 @@ export default function App() {
         }}
       >
         {/* Optional background color */}
-        <color attach="background" args={["#f0f0f0"]} />
+        <color attach="background" args={["#010100"]} />
         <ambientLight intensity={2} />
 
         {/* Suspense wraps things that load async */}
@@ -75,7 +75,7 @@ export default function App() {
           minDistance={3}
           maxDistance={80}
           minPolarAngle={Math.PI / 4}
-          maxPolarAngle={Math.PI / 4}
+          maxPolarAngle={Math.PI / 2.5}
         />
       </Canvas>
     </>
