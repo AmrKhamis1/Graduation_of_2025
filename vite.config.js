@@ -6,5 +6,6 @@ export default defineConfig({
   server: {
     host: true,
   },
+  base: "/Graduation_of_2025/",
   plugins: [react()],
 });
